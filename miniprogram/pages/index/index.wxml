@@ -1,0 +1,69 @@
+<!--轮播图--> 
+<view class="banner">
+  <swiper class="swip_main" indicator-dots autoplay interval="3000" circular="">
+    <block wx:for="{{mglist}}" wx:key="photo">
+      <swiper-item>
+        <image style="width: 100%; height: 100%;" mode="aspectFill" src="{{item.photo}}"></image>
+      </swiper-item> 
+    </block>
+  </swiper>
+</view>
+<!--公告-->
+<view class="news">
+  <view class="news_left">
+    <image src="../../images/gz.png"></image>
+    <view class="news_title">
+      【 公告 】
+    </view>
+  </view>
+  <view class="news_right"> 
+    <swiper class="swiper-news-top" vertical="true" autoplay="true" circular="true" interval="3000">
+      <block wx:for="{{msgList}}" wx:key="text">
+        <navigator url="" open-type="navigate">
+          <swiper-item>
+            <view class="box">
+              <text class="animate">{{item.text}}</text>
+            </view>
+          </swiper-item> 
+        </navigator>
+      </block>
+    </swiper>
+  </view> 
+</view> 
+<!--功能按钮--> 
+<view class="nav">
+  <view class="mean_top">
+    <view class="mean_left" bindtap="zwyy">
+      <image src="../../images/zw.png"></image>
+      <text>座位预约</text>
+    </view>
+    <view class="mean_middle" bindtap="dkqd">
+      <image src="../../images/qd.png"></image>
+      <text>打卡签到</text>
+    </view>
+    <view class="mean_right" bindtap="jdjb"> 
+      <image src="../../images/jubao.png"></image> 
+      <text>监督举报</text>
+    </view> 
+  </view>
+  <view class="mean1_middle">
+    <view class="mean1_middle_left" bindtap="swzl">
+      <image src="../../images/swzl.png"></image>
+      <text>失物招领</text>
+    </view>
+    <view class="mean1_middle_middle" bindtap="hdbm">
+      <image src="../../images/hdyy.png"></image>
+      <text>活动报名</text>
+    </view>
+    <view class="mean1_middle_right" bindtap="tsjs">
+      <image src="../../images/ts.png"></image>
+      <text>图书检索</text>
+    </view>
+  </view>
+  <view class="mean2"> 
+    <view class="mean2_left" bindtap="news">
+      <image src="../../images/news.png"></image>
+      <text>新闻公告</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,8 @@
+<!--pages/robot/index.wxml-->
+<view style="height: 90vh">
+    <chat
+    bind:queryCallback="getQueryCallback"
+    bind:openWebview="openWebview"
+    bind:openMiniProgram="openMiniProgram"
+    />
+</view>

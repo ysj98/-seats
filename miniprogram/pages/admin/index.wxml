@@ -1,0 +1,26 @@
+<!-- <view>正在开发中</view> -->
+<!-- <view class="nav">
+  <view class="mean_top">
+    <view class="mean_left" bindtap="addzw">
+      <image src="../../images/zw.png"></image>
+      <text>添加座位</text>
+    </view>
+    <view class="mean_middle" bindtap="addnews">
+      <image src="../../images/qd.png"></image>
+      <text>添加新闻</text>
+    </view> 
+    <view class="mean_right" bindtap="addts"> 
+      <image src="../../images/jubao.png"></image> 
+      <text>添加图书</text>
+    </view> 
+  </view>
+  <view class="mean1_middle">
+    <view class="mean1_middle_left" bindtap="admin">
+      <image src="../../images/swzl.png"></image> 
+      <text>后台管理</text>
+    </view>
+  </view> -->
+  <view>
+  <web-view src="{{url}}"></web-view>
+ </view>
+<!-- </view> -->

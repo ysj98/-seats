@@ -1,0 +1,90 @@
+.banner{
+  width: 100%;
+  height: 350rpx;
+}
+.banner image{
+  width: 100%;
+  height: 100%;
+}
+.nav{
+  width: 100%;
+  height: 80rpx;
+  background-color: rgb(234, 237, 240);
+}
+.nav_mian_title{
+  margin: 10rpx;
+  text-align: center;
+  float: left;
+}
+.picker{
+  margin: 10rpx;
+  float: left;
+  padding-left: 10rpx;
+}
+.nav_main{
+  line-height: 80rpx;
+  font-weight: 500;
+  font-size: 32rpx;
+  width: 300rpx;
+  height: 100%;
+  margin: 0 30rpx;
+  float: left;
+}
+.zw{
+  width: 95%;
+  min-height: 300rpx;
+  margin: 0 auto;
+}
+.zw_bar{
+  width: 21%;
+  height: 200rpx;
+  background-color:rgb(187, 201, 238);
+  box-shadow: 0 0 20rpx rgb(0 0 0 /5%);
+  border-radius: 10rpx;
+  margin: 10rpx 2%;
+  float: left;
+}
+.zw_bar_bh{
+  text-align: center;
+  padding-top: 15rpx;
+  font-weight: 600;
+}
+.zw_bar_bh_sz{
+  font-size: 26rpx;
+  text-align: center;
+  line-height: 40rpx;
+}
+.zw_bar_bh_sz1{
+  font-size: 26rpx;
+  text-align: center;
+  line-height: 40rpx;
+}
+.zw_zt{
+  text-align: center;
+  font-size: 25rpx;
+}
+.zw_bar1{
+  background-color: rgb(218, 213, 213);
+  color: rgb(100,101,102);
+}
+.zw_bar2{
+  background-color: rgb(165,218,174);
+  color: rgb(36,36,36);
+}
+.wz_lc{
+  text-indent: 10rpx;
+  line-height: 60rpx;
+  margin: 20rpx 5rpx;
+  border-left: 10rpx solid rgb(19, 41, 138);
+  font-size: 600;
+}
+.box_main{
+  width: 100%;
+  min-height: 20rpx;
+}
+/* .zw_bar_main{
+  width: 21%;
+  height: 200rpx;
+  margin: 30rpx 2%;
+  float: left;
+} */

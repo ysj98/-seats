@@ -1,0 +1,22 @@
+<!--pages/news/news.wxml-->
+<view class="top_lpt"> 
+  <image src="../../images/news.jpg"></image>
+</view>
+<view class="news-bar">
+  <view class="newa-bar-title">
+    新闻公告 
+  </view>
+  <view class="news-bar-box" wx:for="{{rmb}}" wx:for-item="item" wx:key="_id" bindtap="sjowbs" id="{{item._id}}" wx:if="{{index<10}}"> 
+    <view class="news-box-img">
+      <image src="{{item.photo}}"></image>
+    </view>
+    <view class="news-box-text">
+      <view class="news-box-text-title"> 
+        {{item.title}}
+      </view>
+      <view class="news-bar-box-time">
+        {{item._updateTime}}
+      </view>
+    </view>
+  </view>
+</view>

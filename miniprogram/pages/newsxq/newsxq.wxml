@@ -1,0 +1,9 @@
+<!--pages/newsxq/newsxq.wxml-->
+<view class="news_title">
+  <view class="news-tite1">{{title}}</view>
+  <view class="news-tite2">发布时间：{{time}}</view>
+</view> 
+<view class="news_main">
+  <rich-text class="news_main_text" nodes="{{html}}"></rich-text>
+</view>  
+  

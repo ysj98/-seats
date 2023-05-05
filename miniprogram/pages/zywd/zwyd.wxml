@@ -1,0 +1,57 @@
+<!--pages/zwyd/zwyd.wxml-->
+<view class="back">
+  <image src="../../images/5d21f5a20be59.jpg"></image>
+</view>
+<view class="main">
+  <view class="title">选座</view>
+  <view class="zwxx">
+      <view class="xzzz_box_title">
+        <view class="xzzz_box_title_icon">  
+          <image src="../../images/calendar.png"></image>
+        </view>
+        <view class="xzzz_box_title_text">时间选择</view>
+      </view>
+      <!--开始时间-->
+      <view class="">
+        <picker mode="date" value="{{date}}" start="{{startDate}}" end="{{endday}}" bindchange="bindDateChangestart">
+          <view class="zwxx_wz">
+            开始时间: {{startTime}} 
+          </view>
+        </picker>
+      </view> 
+      <!--结束时间-->
+      <view class="">
+        <picker mode="date" value="{{date}}" start="{{startDate}}" end="{{endday}}" bindchange="bindDateChangestop">
+          <view class="zwxx_wz">
+            结束时间: {{stopTime}}
+          </view>
+        </picker>
+      </view>
+  </view>
+  <view class="zwxx">
+    <view class="zwxx_box_title">
+      <view class="xzzz_box_title_icon">
+        <image src="../../images/map.png"></image>
+      </view>
+      <view class="xzzz_box_title_text">
+        座位信息
+      </view>
+    </view>
+    <!-- <view class="zwxx_wz">{{rmbs[0].zwlist[0].tsglc}}座位编号{{rmbs[0].bh}}</view> -->
+    <view class="zwxx_wz">楼层：{{rmbs[0].zwlist[0].tsglc}}</view>
+    <view class="zwxx_wz">座位编号：{{rmbs[0].bh}}</view> 
+  </view>
+  <view class="yhxx">
+    <view class="zwxx_box_title">
+      <view class="xzzz_box_title_icon">
+        <image src="../../images/yh.png"></image>
+      </view>
+      <view class="xzzz_box_title_text">
+        用户信息 
+      </view>
+    </view>
+    <view class="zwxx_wz">姓名：{{userinfo[0].username}}</view>
+    <view class="zwxx_wz">学院：{{userinfo[0].xy}}{{userinfo[0].nj}}</view>
+  </view> 
+  <view class="lq" bindtap="qrxz1">确认选座</view> 
+</view>

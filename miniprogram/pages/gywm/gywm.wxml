@@ -1,0 +1,7 @@
+<!-- <view class="banner">
+    <image src="../../images/5d044a1b5b7e4.png"></image>
+</view>  -->
+<view class="wenzi_box"> 
+  <rich-text class="rich"nodes="{{msgList[0].nr}}" ></rich-text>
+</view>
+  

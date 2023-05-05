@@ -1,0 +1,21 @@
+<view class="top-bg"></view>
+<view class="contain">
+	<view class="card">
+		<view class="title">添加座位</view>
+		<picker bindchange="bindPickerChange" value="{{tsgwzlc[lc].value}}" range-key="{{'name'}}" range="{{tsgwzlc}}">
+			<view class="campus"> 
+          当前选择：{{tsgwzlc[lc].name}}
+			</view>
+		</picker> 
+      <view class="contact">
+			<input bindinput="formip"  maxlength="30" placeholder-class="pache" placeholder="请输入座位编号" />
+		</view>
+      <picker bindchange="bindPickerChange" value="{{zwzt}}"  range="{{zwzt}}">
+			<view class="campus"> 
+          座位状态：{{zwzt[index1]}} 
+			</view>
+		</picker> 
+	</view>
+      <van-divider />
+	<button class="confirm" open-type='getUserInfo' bindgetuserinfo="check">确认添加</button>
+</view>

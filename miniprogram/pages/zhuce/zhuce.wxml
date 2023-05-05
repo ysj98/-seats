@@ -1,0 +1,41 @@
+<view data-weui-theme="{{theme}}">
+  <button class="avatar-wrapper" open-type="chooseAvatar" bind:chooseavatar="onChooseAvatar">
+    <image class="avatar" src="{{avatarUrl}}"></image>
+    <text>点击获取头像</text>
+  </button> 
+</view> 
+<form catchsubmit="formSubmit">
+  <view class="fqzd-ban">
+    <view class="row">
+        <view class="text1">昵称：</view> 
+        <input class="weui-input" name="name" type="string" value="{{userInfo[0].name}}"/>
+    </view>
+    <view class="row">
+        <view class="text1">姓名：</view>
+        <input class="weui-input" name="username" value="{{userInfo[0].username}}"/>
+    </view>
+    <view class="row">
+        <view class="text1">电话：</view>
+        <input class="weui-input" name="phone" type="number" value="{{userInfo[0].phone}}"/>
+    </view>
+    <view class="row">
+        <view class="text1">学院：</view>
+        <picker bindchange="bindchangexy" value="{{xy_index}}" range="{{array1}}">
+          <view class="picker">{{array1[xy_index]}}</view>
+        </picker>
+    </view> 
+    <view class="row">
+        <view class="text1">年级：</view>
+        <picker bindchange="bindchangenj" value="{{nj_index}}" range="{{array}}">
+          <view class="picker">{{array[nj_index]}}</view>
+        </picker>
+    </view> 
+    <button type="default" style="margin-top:20rpx;margin-bottom:60rpx" form-type="submit">注册</button>
+</view> 
+</form> 
+<view class="foot">
+    <text>请如实填写注册信息</text>
+</view>
+<view class="foot">
+    <text>填写虚假信息，平台将限制功能使用</text>
+</view>

@@ -1,0 +1,84 @@
+.top_lpt{
+  width: 100%;
+  height: 350rpx;
+}
+.top_lpt image{
+  width: 100%;
+  height: 350rpx;
+}
+.nav{
+  width: 100%;
+  height: 150rpx;
+}
+.nav-banner{
+  height: 100%;
+  width: 20%;
+  background-color: aliceblue;
+  float: left;
+}
+.nav-banner-img{
+  width: 100%;
+  height: 75%;
+}
+.nav-banner-img image{
+  width: 70%;
+  height: 80%;
+  padding: 10% 15%;
+}
+.nav-banner-text{
+  text-align: center;
+  margin-top: -10rpx;
+  font-size: 26rpx;
+}
+.news-bar{
+  width: 95%;
+  min-height: 300rpx;
+  margin: 20rpx auto;
+}
+.newa-bar-title{
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  padding-left: 20rpx;
+  font-weight: 700;
+  border-left: 5px solid rgb(0, 0, 153);
+}
+.news-bar-box{
+  width: 100%;
+  height: 210rpx;
+  margin:30rpx auto;
+  box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 10rpx;
+}
+.news-box-img{
+  width: 280rpx; 
+  height: 190rpx;
+  float: left;
+  border-radius: 10rpx;
+  margin-left: 8rpx;
+  margin-top: 10rpx;
+}
+.news-box-img image{
+  width: 100%;
+  height: 100%;
+}
+.news-box-text{
+  width: 350rpx;
+  height: 210rpx;
+  float: left;
+  padding-left: 20rpx;
+}
+.news-box-text-title{
+  width: 100%;
+  height: 160rpx;
+  line-height: 50rpx;
+  font-weight: 700;
+  font-size: 28rpx;
+}
+.news-bar-box-time{
+  height: 50rpx;
+  width: 100%;
+  line-height: 50rpx;
+  color: #88888b;
+  font-size: 24rpx;
+}

@@ -1,0 +1,156 @@
+.header {
+  background: linear-gradient(to right, #26D9B7, #0ca2dc);
+}
+.bg_ware {
+  position: absolute;
+  left: 0px;
+  bottom: -2rpx;
+  width: 100%;
+  mix-blend-mode: screen;
+  height: 120rpx;
+  z-index: -1;
+}
+.gif{
+  position: relative;
+  height:250rpx; 
+  z-index: -4;
+  padding-top: 30rpx;
+  margin-top: -210rpx;
+  background: linear-gradient(to right, #26D9B7, #0ca2dc);
+}
+.header-top{
+  width: 90%;
+  height: 250rpx;
+  margin: 50rpx auto;
+  background-color: #fff;
+  border-radius: 20rpx;
+  z-index: 99;
+  box-shadow: 0rpx 20rpx  20rpx rgb(207, 207, 207);
+}
+.my_logo{
+  width: 90%;
+  height: 90%;
+}
+.my_logo image{
+  position:absolute;
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  margin-top: 25rpx;
+  margin-left: 20rpx;
+}
+.my_log_text{
+  font-size: 40rpx;
+  margin-left: 250rpx;
+  margin-top: -70rpx;
+  color: black;
+}
+.list_box{
+  background-color: white;
+  margin-top: 10rpx;
+  width: 100%;
+  height: 680rpx;
+}
+.mean_top{ 
+  margin: 10rpx auto;
+  width: 90%;
+  height: 90rpx;
+  /* background-color: wheat; */
+  display: flex;
+}
+.mean_top text{
+  margin-left: 30rpx;
+  font-size:40rpx;
+  font-family:Microsoft YaHei;
+  font-weight:300;
+  color:rgba(1,1,1,1);
+  align-self:center;
+}
+.mean_top_left{
+  margin-left: 40rpx;
+  width: 70rpx;
+  height: 70rpx;
+  align-self:center;
+}
+.link-top {
+  margin:  auto;
+  width: 85%;
+  height: 1px;
+  border-top: solid #ACC0D8 1px;
+}
+.mean_top_right{
+  width: 35rpx;
+  height: 35rpx;
+  align-self:center;
+  margin-left:300rpx;
+}
+.denglu{
+  width: 90%;
+  height: 80rpx;
+}
+.btn image{
+  width: 160rpx;
+  height: 160rpx;
+  float: left;
+}
+ .btn{
+   float: left;
+   position: relative;
+   height: 80rpx;
+   width: 100%;
+   /* margin-top: rpx; */
+   margin-top: -100rpx;
+   left: 5%;
+   
+ }
+ .btn text{
+   /* position:absolute; */
+   margin-top: -30rpx;
+   font-size: 45rpx;
+   text-align: center;
+   color:rgba(0, 0, 0, 0.534);
+ }
+.dltxt{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: darkgrey;
+  margin-top: 30rpx;
+
+}
+ .header-top-biaoqian {
+  width: 200rpx;
+  height: 60rpx;
+  border-radius: 20rpx 10rpx 10rpx 20rpx;
+  background: linear-gradient(to right, #FE9A3A, #FF7215);
+  line-height: 60rpx;
+  color: #fff;
+  text-align: center;
+  font-size: 20rpx;
+  position: absolute;
+  top: 80rpx;
+  right: 15rpx;
+}
+.contact{
+  background-color: aqua;
+  width: 70rpx;
+  margin: left;
+}
+
+.button_text{
+  margin-left: 30rpx;
+  font-size:40rpx;
+  font-family:Microsoft YaHei;
+  font-weight:300;
+  color:rgba(1,1,1,1);
+  align-self:center;
+}
+.button_right{
+  width: 35rpx;
+  height: 35rpx;
+  align-self:center;
+  margin-left:300rpx;
+}
+.button_concat{
+  width:100rpx;
+  height: 40rpx;
+  padding-left: -190rpx;
+}
