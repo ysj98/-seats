@@ -15,8 +15,8 @@
 
 
 #### 效果预览
-![输入图片说明](https://github.com/ysj98/seats/blob/master/images/Snipaste_2023-04-29_04-47-15.png)
-![输入图片说明](https://github.com/ysj98/seats/blob/master/images/Snipaste_2023-04-29_04-47-15.png)
+![输入图片说明](https://github.com/ysj98/seats/blob/master/scan/Snipaste_2023-04-29_04-47-15.png)
+![输入图片说明](https://github.com/ysj98/seats/blob/master/scan/Snipaste_2023-04-29_04-47-15.png)
 
 
 #### 打卡签到
