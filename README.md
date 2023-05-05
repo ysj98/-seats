@@ -18,7 +18,6 @@
 ![输入图片说明](https://github.com/ysj98/seats/blob/master/scan/Snipaste_2023-04-29_04-47-15.png)
 ![输入图片说明](https://github.com/ysj98/seats/blob/master/scan/Snipaste_2023-04-29_04-47-15.png)
 
-
 #### 打卡签到
 ![输入图片说明](https://github.com/ysj98/seats/blob/master/scan/1-001-图书馆一楼.png)
 ![输入图片说明](https://github.com/ysj98/seats/blob/master/scan/1-002-图书馆一楼.png)
