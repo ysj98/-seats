@@ -70,7 +70,16 @@
   "srcMiniprogramRoot": "miniprogram/",
   "compileType": "miniprogram",
   "packOptions": {
-    "ignore": [],
+    "ignore": [
+      {
+        "value": "scan",
+        "type": "folder"
+      },
+      {
+        "value": ".git",
+        "type": "folder"
+      }
+    ],
     "include": []
   },
   "editorSetting": {

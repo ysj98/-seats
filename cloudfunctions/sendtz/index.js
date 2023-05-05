@@ -4,6 +4,7 @@ cloud.init({
   env: 'dev-4gaqqsz72106d5ae'
 })
 exports.main = async (event, context) => {
+  console.log(event, 'eventeventeventeventevent')
   try {
     const result = await cloud.openapi.subscribeMessage.send({
       touser: event.openid, //要发送用户的openid

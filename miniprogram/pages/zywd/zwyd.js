@@ -62,9 +62,9 @@ Page({
   qrxz1() {
     // 订阅消息
     wx.requestSubscribeMessage({
-      tmplIds: ['iTwwZn0HGdJH-wOIC3hm1A2VRloU3wf7uwfr-T9Ed6o'],
+      tmplIds: ['iTwwZn0HGdJH-wOIC3hm1Ob1_IOLEwZYfm-uHMSMe1U'],
     })
-    // this.sendApplyNotice();
+    this.sendApplyNotice();
     const app = getApp()
     var id = app.globalData.openid
     // 获取当前用户的选座信息
@@ -133,7 +133,7 @@ Page({
         stopTime: this.data.stopTime,
         wxts: this.data.wxtz,
         zt: '已预约',
-        templateId: 'iTwwZn0HGdJH-wOIC3hm1A2VRloU3wf7uwfr-T9Ed6o',
+        templateId: 'iTwwZn0HGdJH-wOIC3hm1Ob1_IOLEwZYfm-uHMSMe1U',
         openid: this.data.openid
       }
     }).then(res => {

@@ -31,7 +31,7 @@ admin:function (e) {
   //   url: 'https://dev-4gaqqsz72106d5ae-1311420973.tcloudbaseapp.com/wx-cms/#/home',
   // })
   wx.redirectTo({
-    url: 'https://dev-4gaqqsz72106d5ae-1311420973.tcloudbaseapp.com/wx-cms/#/home',
+    url: 'https://dev-4gaqqsz72106d5ae-1318034780.tcloudbaseapp.com/wx-cms/#/project/home',
   })
 },
   /**
