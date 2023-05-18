@@ -38,19 +38,19 @@
   },
   "tabBar": {
     "color": "#a9b7b7",
-    "selectedColor": "#11cd6e",
+    "selectedColor": "#1296db",
     "borderStyle": "black",
     "list": [
       {
         "pagePath": "pages/index/index",
-        "iconPath": "images/sy.png",
-        "selectedIconPath": "images/sy1.png",
+        "iconPath": "images/shouye.png",
+        "selectedIconPath": "images/shouye1.png",
         "text": "首页"
       },
       {
         "pagePath": "pages/grzx/grzx",
-        "iconPath": "images/my.png",
-        "selectedIconPath": "images/my1.png",
+        "iconPath": "images/gerenzhongxin.png",
+        "selectedIconPath": "images/gerenzhongxin1.png",
         "text": "个人中心"
       }
     ]

@@ -1,9 +1,10 @@
 <view class="header">
-   <view class="header-top">
+  <view class="header-top">
     <view class="my_logo" wx:if="{{openid!=''}}">
-      <image src="{{userInfo[0].userphoto}}" ></image> 
+      <image src="{{userphoto}}"></image>
+      <!-- userInfo[0].userphoto -->
       <view class="header-top-biaoqian">
-        <text wx:if="{{userInfo[0].isadmin}}">超级管理员</text> 
+        <text wx:if="{{userInfo[0].isadmin}}">超级管理员</text>
         <text wx:else>普通用户</text>
       </view>
     </view>
@@ -12,30 +13,30 @@
     </view>
     <view class="btn" bindtap="zhuce" wx:if="{{openid=='' || userInfo==''}}">
       <image src="../../images/dl.png"></image>
-      <text>点击登录</text> 
+      <text>点击登录</text>
       <view class="dltxt">一秒登录，体验所有功能</view>
     </view>
-    </view>
+  </view>
 </view>
 <!--列表-->
 <view class="gif">
   <image class="bg_ware" src="https://ftp.bmp.ovh/imgs/2019/12/83388a096d28fab7.gif"></image>
 </view>
-<view class="list_box"> 
-  <view class="mean_top" bindtap="info"> 
-    <image class="mean_top_left" src="../../images/mine.png"></image> 
+<view class="list_box">
+  <view class="mean_top" bindtap="info">
+    <image class="mean_top_left" src="../../images/mine.png"></image>
     <text>个人信息</text>
     <image class="mean_top_right" src="../../images/right.png"></image>
   </view>
   <view class="link-top"></view>
 
-  <view class="mean_top" bindtap="wdyy">  
+  <view class="mean_top" bindtap="wdyy">
     <image class="mean_top_left" src="../../images/yuyue.png"></image>
     <text>我的预约</text>
     <image class="mean_top_right" src="../../images/right.png"></image>
   </view>
   <view class="link-top"></view>
-  <view class="mean_top" bindtap="yjfk"> 
+  <!-- <view class="mean_top" bindtap="yjfk"> 
     <image class="mean_top_left" src="../../images/bi.png"></image>
     <text>意见反馈</text>
     <image class="mean_top_right" src="../../images/right.png"></image>
@@ -57,6 +58,6 @@
     <image class="mean_top_left" src="../../images/gly.png"></image>
     <text>后台管理</text> 
     <image class="mean_top_right" src="../../images/right.png"></image>
-  </view> 
-  <view class="link-top"></view>
+  </view>  
+  <view class="link-top"></view> -->
 </view>

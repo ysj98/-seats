@@ -34,11 +34,11 @@
 <view class="nav">
   <view class="mean_top">
     <view class="mean_left" bindtap="zwyy">
-      <image src="../../images/zw.png"></image>
+      <image src="../../images/zuowei.png"></image>
       <text>座位预约</text>
     </view>
     <view class="mean_middle" bindtap="dkqd">
-      <image src="../../images/qd.png"></image>
+      <image src="../../images/daka.png"></image>
       <text>打卡签到</text>
     </view>
     <view class="mean_right" bindtap="jdjb"> 
@@ -48,22 +48,22 @@
   </view>
   <view class="mean1_middle">
     <view class="mean1_middle_left" bindtap="swzl">
-      <image src="../../images/swzl.png"></image>
+      <image src="../../images/shiwuzhaoling.png"></image>
       <text>失物招领</text>
     </view>
-    <view class="mean1_middle_middle" bindtap="hdbm">
+    <!-- <view class="mean1_middle_middle" bindtap="hdbm">
       <image src="../../images/hdyy.png"></image>
       <text>活动报名</text>
-    </view>
+    </view> -->
     <view class="mean1_middle_right" bindtap="tsjs">
-      <image src="../../images/ts.png"></image>
+      <image src="../../images/tushuguan.png"></image>
       <text>图书检索</text>
     </view>
   </view>
-  <view class="mean2"> 
+  <!-- <view class="mean2"> 
     <view class="mean2_left" bindtap="news">
       <image src="../../images/news.png"></image>
       <text>新闻公告</text>
     </view>
-  </view>
+  </view> -->
 </view>

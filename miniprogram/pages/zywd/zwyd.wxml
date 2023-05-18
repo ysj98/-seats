@@ -1,6 +1,6 @@
 <!--pages/zwyd/zwyd.wxml-->
 <view class="back">
-  <image src="../../images/5d21f5a20be59.jpg"></image>
+  <image src="../../images/ban.jpg"></image>
 </view>
 <view class="main">
   <view class="title">选座</view>
